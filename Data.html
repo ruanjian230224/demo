@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    function time(){
+      let now = new Date();
+      let hours = now.getHours()<10 ? "0"+now.getHours() : now.getHours();
+      let minutes = now.getMinutes()<10 ? "0"+now.getMinutes() : now.getMinutes();
+      let second = now.getSeconds()<10 ? "0"+NOW.getSeconds() : now.getSeconds();
+      str = hours+":"+minutes+":"+second;
+      document.getElementById("p1").innerHTML='<fontcolor="red">'+str+"</font>"
+    }
+    //innerHTML指所有的双标签
+  </script>
+</body>
+</html>
