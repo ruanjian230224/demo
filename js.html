@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script>
+        var name,age,email,address,salay;
+        name='小明';
+        age=22;
+        email='kakai@itcast.cn';
+        address='火影村';
+        salay=2000;
+        console.log("我叫"+name+"，我住在"+address+",我今年"+age+"岁了，我的邮箱是"+email+",我的工资是"+salay)
+        console.log(`我叫${name},`)
+    </script> -->
+    
+    <!-- <script>
+        var count;
+        // alert("请输入一个数"); 
+        for(;;){
+            var count=prompt('请输入一个数');
+            if(isNaN(count)||count==''){
+                alert("这不是一个数，请重新输入");
+            }
+            else{
+                alert(count); -->
+                <!-- break;                
+            }
+        }
+    </script> -->
+    <!-- <script>
+       /*  var level=parseFloat(prompt('请输入金字塔的层级'))
+        for(;;){ 
+            if(isNaN(level)||level==''){
+                prompt("请重新输入")
+            }
+            else{
+            for(var i;i<level;i++){
+                for(var j;j<i;j++){
+                    for(var z;z<j;z++){
+
+                        }
+                    }
+                }
+            }
+        } */
+    //     let str = ''
+    //     while(1){
+    //         let num = prompt("请输入一个层数").trim()//输入值，去掉两边的空格（为了判断这是不是个空格）
+    //         if(!isNaN(num)&&num!=""){
+    //             for(let i = 1;i<=num;i++){//外行控制行，内行控制列
+    //                 for(let x = num-i+1;x > 0;x--){
+    //                     str += ' '
+    //                 }
+    //                 for(let y = 0;y < i*2-1;y++){
+    //                     str += '*'
+    //                 }
+    //                 str += '\n'
+    //             }
+    //             console.log(str)
+    //             break
+    //         }
+    //         else{
+    //             alert("输入错误请重新输入")
+    //         }
+    //     }
+    </script> -->
+    <!-- <script>
+        var str=''
+        for(;;){
+            var level=+prompt("请输入金字塔的层级").trim()
+            if(!isNaN(level)&&level!=''){
+                for(var i=1;i<=level;i++){
+                    for(var j=level-i+1;j>0;j--){
+                        str +=' '
+                    }
+                    for(var z=0;z<i*2-1;z++){
+                            str +='*'
+                            
+                    }
+                        str +='\n'
+                }
+                console.log(str)
+                break
+            }
+            else{
+                alert('请重新输入')
+            }
+        }
+    </script> -->
+    <script>
+        var fruits;
+        switch(prompt("请输入水果")){
+            case '苹果':alert("苹果的价格1元/斤");break;
+            case '桃子':alert("桃子的价格2元/斤");break;
+            case '榴莲':alert("榴莲的价格23.8/斤");break;
+        }
+    </script>
+</body>
+</html>
